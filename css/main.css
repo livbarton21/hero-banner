@@ -1,37 +1,45 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-    }
+  font-family: "Open Sans", sans-serif;
+}
 
-  *, *::before, *::after {
-    box-sizing: inherit;
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 .banner {
   position: relative;
   overflow: hidden;
+  max-height: 500px;
 }
 
 .banner-content {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   position: absolute;
-  bottom: 1rem;
+  bottom: 1.5rem;
   max-width: 50em;
-  right: 0;
-  top: 0;
-  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 h1 {
-margin: 0;
-background-color: rgba(0, 0, 0, .5);
-font-family: "Open Sans". sans-serif;
-font-size: 4rem;
-font-style: bolder;
-list-style-type: none;
+  margin: 0;
+  background-color: rgba(0, 0, 0, .5);
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  list-style-type: none;
 }
 
 .img-flex {
   display: block;
   width: 100%;
+}
+
+.img {
+  position: relative;
 }
