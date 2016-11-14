@@ -1,13 +1,37 @@
 html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+    }
 
+  *, *::before, *::after {
+    box-sizing: inherit;
 }
 
 .banner {
   position: relative;
+  overflow: hidden;
 }
 
 .banner-content {
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
+  max-width: 50em;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+h1 {
+margin: 0;
+background-color: rgba(0, 0, 0, .5);
+font-family: "Open Sans". sans-serif;
+font-size: 4rem;
+font-style: bolder;
+list-style-type: none;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
