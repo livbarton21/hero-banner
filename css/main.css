@@ -12,28 +12,27 @@ body {
 }
 
 .banner {
-  position: relative;
   overflow: hidden;
+  position: relative;
   max-height: 500px;
 }
 
 .banner-content {
+  bottom: 1.5rem;
+  left: 50%;
+  max-width: 50em;
   padding: 0 1.5rem;
   position: absolute;
-  bottom: 1.5rem;
-  max-width: 50em;
-  left: 50%;
-  transform: translateX(-50%);
   width: 100%;
+  transform: translateX(-50%);
 }
 
 h2 {
-  margin: 0 0 1rem;
+  margin: 0 0 2rem;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 4rem;
-  font-weight: 800;
-  list-style-type: none;
+  font-weight: 700;
   line-height: 1.4;
 }
 
