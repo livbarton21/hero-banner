@@ -24,15 +24,21 @@ body {
   max-width: 50em;
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
 }
 
-h1 {
-  margin: 0;
-  background-color: rgba(0, 0, 0, .5);
+h2 {
+  margin: 0 0 1rem;
+  color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 4rem;
   font-weight: 800;
   list-style-type: none;
+  line-height: 1.4;
+}
+
+h2 span {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .img-flex {
@@ -42,4 +48,10 @@ h1 {
 
 .img {
   position: relative;
+}
+
+p {
+  margin: 0;
+  font-style: italic;
+  font-size: 2rem;
 }
